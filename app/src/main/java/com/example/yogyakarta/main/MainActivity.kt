@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity(), MainContruct.View, View.OnClickListene
             }
             override fun onAdFailedToLoad(errorCode : Int) {
                 Log.i("LOG","Banner Failed to load")
-//                Toast.makeText(applicationContext, "Iklan Gagal Dimuat", Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, "Iklan Gagal Dimuat", Toast.LENGTH_SHORT).show()
                 super.onAdFailedToLoad(errorCode)
 
             }
