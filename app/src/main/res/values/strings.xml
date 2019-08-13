@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Yogyakarta</string>
+    <string name="welcome">Welcome</string>
+    <string name="back">back</string>
+    <string name="please_sign_in">Please Sign In</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="diy">DIY</string>
+    <string name="log_out">Log Out</string>
+    <string name="user_profile">User Profile</string>
+    <string name="yogyakarta">Yogyakarta</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
