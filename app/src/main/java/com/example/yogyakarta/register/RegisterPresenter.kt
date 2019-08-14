@@ -38,9 +38,8 @@ class RegisterPresenter(model: RegisterContruct.View) : RegisterContruct.Present
 
     override fun checkValid(name: EditText, email: EditText, password: EditText, c_password: EditText) {
         if (name.length() > 0 || email.length() > 0 || password.length() > 0 || c_password.length() > 0 ||
-            Patterns.EMAIL_ADDRESS.matcher(email.toString()).matches()){
+            Patterns.EMAIL_ADDRESS.matcher(email.toString()).matches() && password == c_password){
             view?.showLogging()
-
         }else{
             view?.showToastValid()
 
