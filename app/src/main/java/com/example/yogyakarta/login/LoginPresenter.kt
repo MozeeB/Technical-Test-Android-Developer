@@ -45,6 +45,7 @@ class LoginPresenter(model: LoginContruct.View) : LoginContruct.Presenter {
             viemodel?.showLogging()
         }else{
             viemodel?.showToastValidation()
+            // percobaan yg keratusan kalinya ayo berhasil
         }
     }
 }
