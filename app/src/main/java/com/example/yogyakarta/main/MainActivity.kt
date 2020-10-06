@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity(), MainContruct.View, View.OnClickListene
     lateinit var tok :String
     var increment:Int = 1
     var dialog:android.app.AlertDialog? = null
+    //halo nama saya xixixixi dan dadadada
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
